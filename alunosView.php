@@ -10,7 +10,7 @@ function exibirAlunos($alunos){
     foreach ($alunos as $aluno) {
         // Para cada aluno imprime um item da lista que é um (Li).
         // Exibe o nome do aluno e sua idade, formatados como "Nome - Idade anos".
-        echo "<li>{$aluno['nome']} - $aluno]idade anos</li>";
+        echo "<li>{$aluno['nome']} - {$aluno['idade']} anos</li>";
     }
 
     echo "</ul>";
